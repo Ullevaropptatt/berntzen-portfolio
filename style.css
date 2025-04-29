@@ -38,31 +38,55 @@ a:hover {
 
 .right-side a {
   font-size: 1.4rem;
-  padding: 1rem;
+  padding: 0.5rem;
+}
+
+.about-btn {
+  margin-left: 400px;
 }
 
 .header-container {
-  column-gap: 80px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-}
-
-.main-section {
-  align-self: center;
-  display: block;
-  text-align: center;
+  margin-top: 155px;
 }
 
 .berntzen-pfp img {
-  height: 400px;
-  width: 400px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  margin-top: 100px;
 }
 
+.first-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.first-section img, button {
+  margin: 7px;
+}
 
+.nameplate-btn button{
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: white;
+  border-style: solid;
+  padding: 8px 24px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: rgb(83, 83, 92);
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 
 
 
