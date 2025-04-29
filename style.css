@@ -49,7 +49,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 155px;
+  margin-top: 70px;
 }
 
 .berntzen-pfp img {
@@ -125,4 +125,3 @@ a:hover {
   color: white;
   cursor: pointer;
 }
-
