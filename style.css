@@ -116,7 +116,7 @@ a:hover {
 
 .main-buttons button {
   border: none;
-  padding: 14px 40px;
+  padding: 14px 44px;
   border-radius: 28px;
   margin-top: 20px;
   font-size: 0.9rem;
@@ -127,8 +127,8 @@ a:hover {
 }
 
 .main-buttons .reach-out-btn {
-  background-color: white;
-  color: black;
+  background-color: rgba(15, 29, 134, 0.8);
+  color: rgb(255, 255, 255);
   border-color: grey;
   border: 1px;
   border-style: solid;
@@ -138,6 +138,9 @@ a:hover {
 .main-buttons .reach-out-btn:hover {
   background-color: rgba(15, 29, 134, 0.8);
   color: white;
+  color: black;
+  background-color: white;
+  border-color: grey;
 }
 
 .main-buttons .view-btn {
@@ -150,4 +153,34 @@ a:hover {
   border-color: grey;
   border: 1px;
   border-style: solid;
+}
+
+.projects {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 130px;
+  font-size: 2rem;
+  color: rgba(15, 29, 134, 1);;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 55px; 
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: solid 1px;
+  border-color: grey;
 }
