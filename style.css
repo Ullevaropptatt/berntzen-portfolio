@@ -91,7 +91,7 @@ a:hover {
 
 .first-text {
   display: flex;
-  color: rgb(61, 61, 61);
+  color: rgb(75, 75, 75);
   font-size: 1.2rem;
   align-items: center;
   justify-content: center;
@@ -105,12 +105,24 @@ a:hover {
 }
 
 .second-text {
-  color: rgb(15, 29, 134);
+  color: rgba(15, 29, 134, 0.8);
 }
 
-.third-text {
+.third-text h3{
   margin-top: 12px;
-  color: rgba(46, 52, 59, 0.6);
+  color: rgba(46, 52, 59, 0.7);
+  font-weight: 400;
 }
 
+.main-buttons button {
+  border: none;
+  padding: 14px 40px;
+  border-radius: 28px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: rgba(15, 29, 134, 0.8);
+  color: white;
+  cursor: pointer;
+}
 
