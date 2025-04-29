@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, Arial;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+  text-underline-offset: 0.8rem;
+}
+
+.left-side a {
+  font-size: 2.1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.right-side a {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.header-container {
+  column-gap: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-section {
+  align-self: center;
+  display: block;
+  text-align: center;
+}
+
+.berntzen-pfp img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
