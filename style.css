@@ -11,6 +11,13 @@
   height: 8.5rem;
 }
 
+body {
+  background-color: white;
+  background-image: radial-gradient(circle, #ccc 0.5px, transparent 1px);
+  background-size: 18px 18px; 
+  height: 100vh;
+}
+
 a {
   text-decoration: none;
   color: black;
