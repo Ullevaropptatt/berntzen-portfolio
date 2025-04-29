@@ -15,7 +15,7 @@ body {
   background-color: white;
   background-image: radial-gradient(circle, #ccc 0.5px, transparent 1px);
   background-size: 15px 15px; 
-  height: 100vh;
+  height: 170vh;
 }
 
 a {
@@ -49,7 +49,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 155px;
 }
 
 .berntzen-pfp img {
