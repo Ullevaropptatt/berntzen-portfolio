@@ -14,7 +14,7 @@
 body {
   background-color: white;
   background-image: radial-gradient(circle, #ccc 0.5px, transparent 1px);
-  background-size: 18px 18px; 
+  background-size: 15px 15px; 
   height: 100vh;
 }
 
@@ -63,6 +63,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .first-section img, button {
@@ -88,8 +89,28 @@ a:hover {
   
 }
 
+.first-text {
+  display: flex;
+  color: rgb(61, 61, 61);
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
 
+.first-text img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: 15px;
+}
 
+.second-text {
+  color: rgb(15, 29, 134);
+}
 
+.third-text {
+  margin-top: 12px;
+  color: rgba(46, 52, 59, 0.6);
+}
 
 
